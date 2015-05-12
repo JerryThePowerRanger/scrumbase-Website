@@ -1,0 +1,15 @@
+/*
+	In diese Datei kommen alle Import-Anweisungen von den verschiedenen Dateien
+	Diese Datei wird danach nur noch in app.scss eingebunden und
+
+	BAM! alle Dateien sind drinnen
+*/
+
+// Basic Settings von Foundation
+@import "settings";
+
+// Foundationkomponenten
+@import "foundation";
+
+// Basisvariablen, die in der gesamten CSS-Datei benötigt werden
+@import "base";
