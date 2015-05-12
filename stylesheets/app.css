@@ -1,3 +1,10 @@
+@charset "UTF-8";
+/*
+	In diese Datei kommen alle Import-Anweisungen von den verschiedenen Dateien
+	Diese Datei wird danach nur noch in app.scss eingebunden und
+
+	BAM! alle Dateien sind drinnen
+*/
 /* line 364, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.5.2/";
@@ -9439,3 +9446,11 @@ th.hide-for-touch {
     display: none !important;
   }
 }
+/*
+	Diese Datei wird für die Grundvariablen in der gesamten CSS-Datei verwendet.
+	Beispiele hierfür sind:
+
+	– Farben
+	– Schriftarten
+	...
+*/
