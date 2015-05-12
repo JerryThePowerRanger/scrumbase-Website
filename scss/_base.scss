@@ -6,3 +6,31 @@
 	– Schriftarten
 	...
 */
+
+// Amaranth – Rot
+$primaryRed: #F03A47;
+
+// Chathamas Blue – Dunkelblau
+$primaryDarkBlue: #1B4079;
+
+// Calypso – Hellblau
+$primaryLightBlue: #346791;
+
+// Clear Day – Himmelblau
+$primarySkyBlue: #F1FFFA;
+
+// Mercury – Grau
+$primaryGrey: #E6E6E6;
+
+// Mine Shaft – Dunkles Grau – wird für die Schrift verwendent
+$primaryFontColor: #333333;
+
+// –––––––––– SCHRIFTARTEN ––––––––––
+
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700|Oxygen:400,700");
+
+// Fließtext
+$primaryNormalText: Source Sans Pro, sans-serif;
+
+// Header
+$primaryHeader: Oxygen, sans-serif;
