@@ -1,0 +1,20 @@
+.header{
+	font-size: 28pt;
+	font-family: $primaryHeader;
+	font-weight: 700;
+}
+
+.mainBox{
+	font-family: $primaryNormalText;
+}
+
+h1{
+	font-weight: 700;
+	font-family: $primaryHeader;
+	color: $primaryDarkBlue;
+}
+
+h3{
+	@extend h1;
+	color: $primaryLightBlue;
+}
