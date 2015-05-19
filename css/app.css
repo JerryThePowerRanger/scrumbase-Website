@@ -9455,14 +9455,7 @@ th.hide-for-touch {
 	– Schriftarten
 	...
 */
-/* line 1, ../scss/_mainText.scss */
-.header {
-  font-size: 28pt;
-  font-family: Oxygen, sans-serif;
-  font-weight: 700;
-}
-
-/* line 7, ../scss/_mainText.scss */
-.mainBox {
-  background-color: grey;
+/* line 45, ../scss/_base.scss */
+.paragraph {
+  margin-top: 2.5em;
 }

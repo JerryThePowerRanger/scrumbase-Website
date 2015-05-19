@@ -5,5 +5,16 @@
 }
 
 .mainBox{
-	background-color: grey;
+	font-family: $primaryNormalText;
+}
+
+h1{
+	font-weight: 700;
+	font-family: $primaryHeader;
+	color: $primaryDarkBlue;
+}
+
+h3{
+	@extend h1;
+	color: $primaryLightBlue;
 }
