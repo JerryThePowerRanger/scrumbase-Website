@@ -22,6 +22,8 @@ $primarySkyBlue: #F1FFFA;
 // Mercury – Grau
 $primaryGrey: #E6E6E6;
 
+$secondaryGrey: #363636;
+
 // Mine Shaft – Dunkles Grau – wird für die Schrift verwendent
 $primaryFontColor: #333333;
 
@@ -41,7 +43,17 @@ $primaryHeader: Oxygen, sans-serif;
 //		*  SCHRIFTGRÖßEN *
 //		//////////////////
 
+.nT{
+	color: $primaryFontColor;
+	font-family: $primaryNormalText;
+}
 
 .paragraph{
+	@extend .nT;
 	margin-top: 2.5em;
+
+}
+
+p{
+	@extend .nT;
 }

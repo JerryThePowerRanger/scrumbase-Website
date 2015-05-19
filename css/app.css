@@ -9455,7 +9455,13 @@ th.hide-for-touch {
 	– Schriftarten
 	...
 */
-/* line 45, ../scss/_base.scss */
+/* line 46, ../scss/_base.scss */
+.nT, .paragraph, p {
+  color: #333333;
+  font-family: Source Sans Pro, sans-serif;
+}
+
+/* line 51, ../scss/_base.scss */
 .paragraph {
   margin-top: 2.5em;
 }
