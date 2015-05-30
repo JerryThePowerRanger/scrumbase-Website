@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Scrumbase</title>
-    <link rel="stylesheet" href="stylesheets/app.css" />
+    <link rel="stylesheet" href="css/app.css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
   <body>
@@ -13,14 +13,22 @@
 	<nav class="top-bar" data-topbar role="navigation">
 		<ul class="title-area">
 			<li class="name">
-				<a href="#"><img src="images/nav_logo.png"></a>
-			</li>		
+				<a href="#"><img src="images/nav_logo.png" id="top_logo"></a>
+			</li>
+			<li class="toggle-topbar menu-icon">
+				<a href="">
+					<span>Menu</span>
+				</a>
+			</li>	
 		</ul>
-		<section class="top-bar-section">
+		<section class="top-bar-section" id="top_elements">
 			<!-- Rechte Navigationssektion -->
 			<ul class="right">
+				<li class="divider"></li>
 				<li><a href="#">Einführung</a></li>
+				<li class="divider"></li>
 				<li><a href="#">Begriffe</a></li>
+				<li class="divider"></li>
 				<li><a href="#">Anwendung</a></li>
 			</ul>
 
@@ -30,7 +38,21 @@
 			</ul>
 		</section>
 	</nav>
-  
+  	<div class="content">
+  		rwkgweh
+  	</div>
+  	<!-- Footer -->
+  	<footer id="footer" class="small-12">
+  		<div class="large-12 columns">
+			<div class="small-6 columns">
+	  			<p class="contact left">© Copyright 2015. <a href="#">Kontakt</a></p>
+	  		</div>
+	  		<div class="small-6 columns">
+		  		<img src="images/htl_logo.png" id="footer_logo" class="right">
+	  		</div>
+  		</div>
+  	</footer>
+
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="js/script.js"></script>

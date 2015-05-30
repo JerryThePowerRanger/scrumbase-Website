@@ -25,6 +25,11 @@ $primaryGrey: #E6E6E6;
 // Mine Shaft – Dunkles Grau – wird für die Schrift verwendent
 $primaryFontColor: #333333;
 
+// Foundation Variablen
+
+$topbar-bg-color: $primaryDarkBlue;
+
+
 //		////////////////// 
 //		*  SCHRIFTARTEN *
 //		/////////////////
@@ -40,3 +45,6 @@ $primaryHeader: Oxygen, sans-serif;
 //		/////////////////// 
 //		*  SCHRIFTGRÖßEN *
 //		//////////////////
+
+$navigationBar: 30px;
+$footer: 20px;
