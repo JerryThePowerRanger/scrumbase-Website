@@ -5,7 +5,13 @@
 }
 
 .mainBox{
+<<<<<<< HEAD
 	font-family: $primaryNormalText;
+=======
+<<<<<<< HEAD
+	@extend .nT;
+	margin-top: 2em;
+>>>>>>> mainText
 }
 
 h1{
@@ -18,3 +24,19 @@ h3{
 	@extend h1;
 	color: $primaryLightBlue;
 }
+<<<<<<< HEAD
+=======
+h4{
+	@extend h1;
+}
+
+.check{
+	li{
+		list-style:none;
+	}
+}
+=======
+	background-color: grey;
+}
+>>>>>>> e5496d10fecc2111707b23db13bffca636a0c34a
+>>>>>>> mainText
