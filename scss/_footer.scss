@@ -1,0 +1,20 @@
+#footer {
+	position: absolute;
+
+	bottom: 0px;
+	height: 3em;
+	background-color: $oil;
+}
+
+.contact {
+	position: relative;
+	margin-bottom: 0.5em;
+	font-family: $primaryHeader;
+	font-size: 1em;
+	color: white;
+}
+
+#footer_logo {
+	margin-top: 0.3em;
+	height: 2.3em;
+}
