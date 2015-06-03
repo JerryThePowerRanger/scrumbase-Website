@@ -5,7 +5,9 @@
 
 	BAM! alle Dateien sind drinnen
 */
+
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700|Oxygen:400,700");
+
 /* line 364, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.5.2/";
@@ -9456,6 +9458,7 @@ th.hide-for-touch {
 	– Schriftarten
 	...
 */
+<<<<<<< HEAD
 /* line 45, ../scss/_base.scss */
 .paragraph {
   margin-top: 2.5em;
@@ -9484,3 +9487,5 @@ h1, h3 {
 h3 {
   color: #346791;
 }
+=======
+>>>>>>> e5496d10fecc2111707b23db13bffca636a0c34a
