@@ -22,11 +22,22 @@ $primarySkyBlue: #F1FFFA;
 // Mercury – Grau
 $primaryGrey: #E6E6E6;
 
+<<<<<<< HEAD
 $secondaryGrey: #363636;
 
 // Mine Shaft – Dunkles Grau – wird für die Schrift verwendent
 $primaryFontColor: #333333;
 
+=======
+// Mine Shaft – Dunkles Grau – wird für die Schrift verwendent
+$primaryFontColor: #333333;
+
+// Foundation Variablen
+
+$topbar-bg-color: $primaryDarkBlue;
+
+
+>>>>>>> e5496d10fecc2111707b23db13bffca636a0c34a
 //		////////////////// 
 //		*  SCHRIFTARTEN *
 //		/////////////////
@@ -43,6 +54,7 @@ $primaryHeader: Oxygen, sans-serif;
 //		*  SCHRIFTGRÖßEN *
 //		//////////////////
 
+<<<<<<< HEAD
 .nT{
 	color: $primaryFontColor;
 	font-family: $primaryNormalText;
@@ -57,3 +69,7 @@ $primaryHeader: Oxygen, sans-serif;
 p{
 	@extend .nT;
 }
+=======
+$navigationBar: 30px;
+$footer: 20px;
+>>>>>>> e5496d10fecc2111707b23db13bffca636a0c34a

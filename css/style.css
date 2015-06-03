@@ -5,7 +5,9 @@
 
 	BAM! alle Dateien sind drinnen
 */
+
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700|Oxygen:400,700");
+
 /* line 364, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.5.2/";
@@ -5014,7 +5016,7 @@ label.error {
 
 /* Typography */
 /* line 112, ../bower_components/foundation/scss/foundation/components/_joyride.scss */
-.joyride-tip-guide h1, .joyride-tip-guide h3, .joyride-tip-guide h4,
+.joyride-tip-guide h1,
 .joyride-tip-guide h2,
 .joyride-tip-guide h3,
 .joyride-tip-guide h4,
@@ -5644,16 +5646,16 @@ ul.pagination li {
   margin-bottom: 0;
 }
 /* line 67, ../bower_components/foundation/scss/foundation/components/_panels.scss */
-.panel h1, .panel h3, .panel h4, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p, .panel li, .panel dl {
+.panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p, .panel li, .panel dl {
   color: #333333;
 }
 /* line 74, ../bower_components/foundation/scss/foundation/components/_panels.scss */
-.panel h1, .panel h3, .panel h4, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6 {
+.panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6 {
   line-height: 1;
   margin-bottom: 0.625rem;
 }
 /* line 76, ../bower_components/foundation/scss/foundation/components/_panels.scss */
-.panel h1.subheader, .panel h3.subheader, .panel h4.subheader, .panel h2.subheader, .panel h3.subheader, .panel h4.subheader, .panel h5.subheader, .panel h6.subheader {
+.panel h1.subheader, .panel h2.subheader, .panel h3.subheader, .panel h4.subheader, .panel h5.subheader, .panel h6.subheader {
   line-height: 1.4;
 }
 /* line 88, ../bower_components/foundation/scss/foundation/components/_panels.scss */
@@ -5675,16 +5677,16 @@ ul.pagination li {
   margin-bottom: 0;
 }
 /* line 67, ../bower_components/foundation/scss/foundation/components/_panels.scss */
-.panel.callout h1, .panel.callout h3, .panel.callout h4, .panel.callout h2, .panel.callout h3, .panel.callout h4, .panel.callout h5, .panel.callout h6, .panel.callout p, .panel.callout li, .panel.callout dl {
+.panel.callout h1, .panel.callout h2, .panel.callout h3, .panel.callout h4, .panel.callout h5, .panel.callout h6, .panel.callout p, .panel.callout li, .panel.callout dl {
   color: #333333;
 }
 /* line 74, ../bower_components/foundation/scss/foundation/components/_panels.scss */
-.panel.callout h1, .panel.callout h3, .panel.callout h4, .panel.callout h2, .panel.callout h3, .panel.callout h4, .panel.callout h5, .panel.callout h6 {
+.panel.callout h1, .panel.callout h2, .panel.callout h3, .panel.callout h4, .panel.callout h5, .panel.callout h6 {
   line-height: 1;
   margin-bottom: 0.625rem;
 }
 /* line 76, ../bower_components/foundation/scss/foundation/components/_panels.scss */
-.panel.callout h1.subheader, .panel.callout h3.subheader, .panel.callout h4.subheader, .panel.callout h2.subheader, .panel.callout h3.subheader, .panel.callout h4.subheader, .panel.callout h5.subheader, .panel.callout h6.subheader {
+.panel.callout h1.subheader, .panel.callout h2.subheader, .panel.callout h3.subheader, .panel.callout h4.subheader, .panel.callout h5.subheader, .panel.callout h6.subheader {
   line-height: 1.4;
 }
 /* line 90, ../bower_components/foundation/scss/foundation/components/_panels.scss */
@@ -6921,13 +6923,13 @@ meta.foundation-mq-topbar {
   margin: 0;
 }
 /* line 214, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
-.top-bar .name h1, .top-bar .name h3, .top-bar .name h4, .top-bar .name h2, .top-bar .name h3, .top-bar .name h4, .top-bar .name p, .top-bar .name span {
+.top-bar .name h1, .top-bar .name h2, .top-bar .name h3, .top-bar .name h4, .top-bar .name p, .top-bar .name span {
   font-size: 1.0625rem;
   line-height: 2.8125rem;
   margin: 0;
 }
 /* line 219, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
-.top-bar .name h1 a, .top-bar .name h3 a, .top-bar .name h4 a, .top-bar .name h2 a, .top-bar .name h3 a, .top-bar .name h4 a, .top-bar .name p a, .top-bar .name span a {
+.top-bar .name h1 a, .top-bar .name h2 a, .top-bar .name h3 a, .top-bar .name h4 a, .top-bar .name p a, .top-bar .name span a {
   color: #FFFFFF;
   display: block;
   font-weight: normal;
@@ -7373,7 +7375,7 @@ meta.foundation-mq-topbar {
     float: left;
   }
   /* line 500, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
-  .top-bar .name h1 a, .top-bar .name h3 a, .top-bar .name h4 a,
+  .top-bar .name h1 a,
   .top-bar .name h2 a,
   .top-bar .name h3 a,
   .top-bar .name h4 a,
@@ -7850,8 +7852,6 @@ ul,
 ol,
 li,
 h1,
-h3,
-h4,
 h2,
 h3,
 h4,
@@ -7907,7 +7907,7 @@ p aside {
 
 /* Default header styles */
 /* line 252, ../bower_components/foundation/scss/foundation/components/_type.scss */
-h1, h3, h4, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
   color: #222222;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-style: normal;
@@ -7918,14 +7918,14 @@ h1, h3, h4, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 /* line 262, ../bower_components/foundation/scss/foundation/components/_type.scss */
-h1 small, h3 small, h4 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   color: #6f6f6f;
   font-size: 60%;
   line-height: 0;
 }
 
 /* line 269, ../bower_components/foundation/scss/foundation/components/_type.scss */
-h1, h3, h4 {
+h1 {
   font-size: 2.125rem;
 }
 
@@ -8170,12 +8170,12 @@ blockquote p {
 
 @media only screen and (min-width: 40.0625em) {
   /* line 455, ../bower_components/foundation/scss/foundation/components/_type.scss */
-  h1, h3, h4, h2, h3, h4, h5, h6 {
+  h1, h2, h3, h4, h5, h6 {
     line-height: 1.4;
   }
 
   /* line 456, ../bower_components/foundation/scss/foundation/components/_type.scss */
-  h1, h3, h4 {
+  h1 {
     font-size: 2.75rem;
   }
 
@@ -8247,14 +8247,14 @@ blockquote p {
   position: relative;
 }
 /* line 170, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
-.tab-bar h1, .tab-bar h3, .tab-bar h4, .tab-bar h2, .tab-bar h3, .tab-bar h4, .tab-bar h5, .tab-bar h6 {
+.tab-bar h1, .tab-bar h2, .tab-bar h3, .tab-bar h4, .tab-bar h5, .tab-bar h6 {
   color: #FFFFFF;
   font-weight: bold;
   line-height: 2.8125rem;
   margin: 0;
 }
 /* line 176, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
-.tab-bar h1, .tab-bar h3, .tab-bar h4, .tab-bar h2, .tab-bar h3, .tab-bar h4 {
+.tab-bar h1, .tab-bar h2, .tab-bar h3, .tab-bar h4 {
   font-size: 1.125rem;
 }
 
@@ -9457,42 +9457,3 @@ th.hide-for-touch {
 	– Schriftarten
 	...
 */
-/* line 46, ../scss/_base.scss */
-.nT, .paragraph, p, .mainBox {
-  color: #333333;
-  font-family: Source Sans Pro, sans-serif;
-}
-
-/* line 51, ../scss/_base.scss */
-.paragraph {
-  margin-top: 2.5em;
-}
-
-/* line 1, ../scss/_mainText.scss */
-.header {
-  font-size: 28pt;
-  font-family: Oxygen, sans-serif;
-  font-weight: 700;
-}
-
-/* line 7, ../scss/_mainText.scss */
-.mainBox {
-  margin-top: 2em;
-}
-
-/* line 12, ../scss/_mainText.scss */
-h1, h3, h4 {
-  font-weight: 700;
-  font-family: Oxygen, sans-serif;
-  color: #1B4079;
-}
-
-/* line 18, ../scss/_mainText.scss */
-h3 {
-  color: #346791;
-}
-
-/* line 27, ../scss/_mainText.scss */
-.check li {
-  list-style: none;
-}

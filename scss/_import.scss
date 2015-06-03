@@ -5,6 +5,9 @@
 	BAM! alle Dateien sind drinnen
 */
 
+// Foundation
+@import "foundation/components/top-bar";
+
 // Basic Settings von Foundation
 @import "settings";
 
@@ -13,3 +16,9 @@
 
 // Basisvariablen, die in der gesamten CSS-Datei benötigt werden
 @import "base";
+
+// Topbar
+@import "topbar";
+
+// Footer
+@import "footer";
