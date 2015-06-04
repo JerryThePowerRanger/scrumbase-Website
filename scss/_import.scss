@@ -22,3 +22,9 @@
 
 // Footer
 @import "footer";
+
+// Kompass Zeug
+@import "compass/reset.scss";
+@import "compass/layout.scss";
+ 
+@include sticky-footer(72px, "#layout", "#layout_footer", "#footer");
