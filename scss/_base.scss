@@ -46,6 +46,11 @@ $primaryHeader: Oxygen, sans-serif;
 //		*  SCHRIFTGRÖßEN *
 //		//////////////////
 
+
+/* 
+	ZEUG DAS EIGENTLICH WOANDERS HINGEHÖRT
+*/
+
 .nT{
 	color: $primaryFontColor;
 	font-family: $primaryNormalText;
@@ -63,6 +68,18 @@ $primaryHeader: Oxygen, sans-serif;
 
 .mainBox li {
 	margin-top: 0.5em;
+}
+
+.panel h1 {
+	font-size: 180%;
+}
+
+.panel h2 {
+	font-size: 120%;
+}
+
+.panel b {
+	font-weight: bold;
 }
 
 $navigationBar: 30px;

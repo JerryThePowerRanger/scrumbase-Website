@@ -1,0 +1,258 @@
+<!doctype html>
+<html class="no-js" lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scrumbase</title>
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="bower_components/modernizr/modernizr.js"></script>
+  </head>
+  <body>
+  	<div id="layout">
+	  	<!-- Navigationsleiste -->
+		<nav class="top-bar" data-topbar role="navigation">
+			<ul class="title-area">
+				<li class="name">
+					<a href="#"><img src="images/nav_logo.png" id="top_logo"></a>
+				</li>
+				<li class="toggle-topbar menu-icon">
+					<a href="">
+						<span>Menu</span>
+					</a>
+				</li>	
+			</ul>
+			<section class="top-bar-section" id="top_elements">
+				<!-- Rechte Navigationssektion -->
+				<ul class="right">
+					<li class="divider"></li>
+					<li><a href="intro.html">Einführung</a></li>
+					<li class="divider"></li>
+					<li><a href="terms.html">Begriffe</a></li>
+					<li class="divider"></li>
+					<li><a href="#">Anwendung</a></li>
+				</ul>
+
+				<!-- Linke Navigationssektion -->
+				<ul class="left">
+
+				</ul>
+			</section>
+		</nav>
+		<!--Content -->
+	  	<div class="content mainBox row">
+	  		<div class="small-10 small-offset-1">
+		  		<div class="row">
+		  			<div class="panel">
+		  				<h1>Übersicht</h1>
+		  				<ul>
+		  					<li>
+		  						<a href="#rollen">Rollen in Scrum</a>
+		  						<ul>
+		  							<li><a href="#po">Product Owner</a></li>
+		  							<li><a href="#sm">Scrum Master</a></li>
+		  							<li><a href="#team">Team</a></li>
+		  							<li><a href="#stake">Stakeholder</a></li>
+		  						</ul>
+		  					</li>
+		  					<li>
+		  						<a href="#meetings">Meetings</a>
+		  						<ul>
+		  							<li><a href="#ds">Daily Scrum</a></li>
+		  							<li><a href="#sp">Sprint Planning Meeting</a></li>
+		  							<li><a href="#sreview">Sprint Review Meeting</a></li>
+		  							<li><a href="#sretro">Sprint Retrospective</a></li>
+		  						</ul>
+		  					</li>
+		  					<li>
+		  						<a href="#misc">Weiteres</a>
+		  						<ul>
+		  							<li><a href="#pback">Product Backlog</a></li>
+		  							<li><a href="#sback">Sprint Backlog</a></li>
+		  							<li><a href="#dod">Definition of Done</a></li>
+		  							<li><a href="#us">User Story</a></li>
+		  							<li><a href="#pp">Planning Poker</a></li>
+		  							<li><a href="#sb">Scrumbag</a></li>
+		  						</ul>
+		  					</li>
+		  				</ul>
+		  			</div>
+		  		</div>
+		  		<div class="row">
+
+<h1 class="header" id="rollen">Rollen in Scrum</h1>
+
+<!-- Product Owner -->
+<div class="panel" id="po">
+	<h1>Product Owner</h1>
+	<p>In jedem Projekt beziehungsweise für jedes Produkt gibt es einen Aufraggeber, der Anforderungen stellt
+	und letztendlich das Produkt beurteilt und abnimmt. In Scrum spricht man hier vom Product Owner. Wenn
+	kein Product Owner seitens der Auftraggeber benannt wird, wird diese Rolle von einer Person aus dem
+	Scrum Team übernommen. Dabei ist es wichtig, dass diese Person die Interessen vom Kunden
+	überzeugend vertreten kann.</p>
+
+	<h2>Aufgaben und Verantwortungen</h2>
+	<p>
+		<ul class="circle">
+			<li>Steht für Rückfragen des Teams bereit</li>
+			<li>Ist für die Eigenschaften und den Erfolg des Produktes oder Projektes verantwortlich</li>
+			<li>Priorisiert und Pflegt Inhalte des Product-Backlogs, die zusammen mit dem Team beschlossen wurden und aktualisiert regelmäßig das Product Backlog Refinement</li>
+			<li>Hält Rücksprachen mit <a href="#stake">Stakeholdern</a>, um deren Interessen entsprechend zu berücksichtigen</li>
+		</ul>
+	</p>
+	<h2>Was er <u>nicht</u> tut</h2>
+	<p>
+		<ul class="circle">
+			<li>Die Rolle des Chefs übernehmen, Vorgaben bezüglich der Arbeitsweise im Team machen</li>
+			<li><a href="#ds">Daily Scrums</a> moderieren</li>
+			<li>Während eines Sprints das Scrum-Team mit neuen Aufgaben beauftragen (z.B. Zusatzanforderungen)</li>
+		</ul>
+	</p>
+</div>
+
+<!-- Scrum Master -->
+<div class="panel" id="sm">
+	<h1>Scrum Master</h1>
+	<p>Der Scrum-Master ist als Coach zu sehen, er/sie gibt einzelnen Mitgliedern keinen konkreten Anweisungen.
+	Er beseitigt Hindernisse und Störungen und ermöglicht, dass das Team während eines Sprints sich an seiner
+	Arbeit konzentrieren kann.</p>
+
+	<h2>Aufgaben und Verantwortungen</h2>
+	<p>
+		<ul class="circle">
+			<li>Überprüft die Einhaltung vom Scrum Prozess und Praktiken</li>
+			<li>Organisiert die Meetings</li>
+			<li>Liefert Informationen zwischen Team und Product Owner</li>
+			<li>Schützt vor Ablenkungen des Teams (Anforderungen von Außen, Konflikte im Team)</li>
+			<li>Moderiert Scrum-Meetings</li>
+		</ul>
+	</p>
+
+	<h2>Was er <u>nicht</u> tut</h2>
+	<p>
+		<ul class="circle">
+			<li>Die Rolle des Chefs übernehmen</li>
+			<li>Dem Team anschaffen, wie es welche Arbeit zu erledigen hat</li>
+		</ul>
+	</p>
+</div>
+
+<!-- Team -->
+<div class="panel" id="team">
+	<h1>Team</h1>
+	<p>Das Team ist für die Entwicklung des Produktes beziehungsweise für die Entwicklung der einzelnen Inhalte
+	des Product-Backlogs in einer bestimmten Reihenfolge zuständig.
+	Außerdem ist die Arbeitsaufwandschätzung eine Aufgabe des Teames
+	Sofern es möglich ist, organisieren sich Teammitglieder selbst.</p>
+
+	<h2>Aufgaben und Verantwortungen</h2>
+	<p>
+		<ul class="circle">
+			<li>Abhängig vom Projekt, besteht es aus 5 - 10 Personen</li>
+			<li>Mitglieder sind ihre eigenen Manager (Self-Organisation)</li>
+			<li>Liefern täglich ihren Status (<a href="#ds">Daily Scrum</a>)</li>
+			<li>Jeder kennt das Projekt als Ganzes</li>
+			<li>Jeder aktualisiert täglich seinen Arbeitsaufwand im Sprint-Backlog</li>
+		</ul>
+	</p>
+</div>
+
+<!-- Stakeholder -->
+<div class="panel" id="stake">
+	<h1>Stakeholder</h1>
+	<p>Sind Personen die mit dem Projekt in einer Beziehung stehen und dem Projekt positiv oder Negativ
+beeinflussen, wie zum Beispiel Kunden, Anwender oder das Management, usw.</p>
+	<p>
+		Einem <b>Kunden</b> wird das fertige Produkt am Ende zur Verfügung gestellt. Jedoch ist es Aufgabe des Produkt
+Owners mit dem Kunden für die Dauer des Projektes im engen Austausch zu stehen, um ihm die
+Möglichkeit zu bieten, neuste Funktionen sehen zu können.
+	</p>
+	<p>
+	<b>Anwender</b> können, müssen aber nicht Kunden sein. Sie sind die, die das Produkt letztendlich nutzen.
+Daher ist Feedback von ihnen sehr wertvoll. Außerdem sollten sie idealerweise bei Meetings bezüglich
+Product Backlog Refinement (Bearbeitung des Backlogs) dabei sein.
+	</p>
+	<p>
+	Die Aufgabe des <b>Management</b> besteht unter anderem darin, das Scrum-Team außenrum zu unterstützen,
+zum Beispiel bei der Bereitstellung von Räumen.
+	</p>
+</div>
+
+<h1 class="header">Meetings</h1>
+
+<div class="panel" id="ds">
+	<h1>Daily Scrum</h1>
+	<p>Ist ein tägliches Status-Meeting mit einer Dauer von höchstens 10 Minuten für
+das ganze Team.</p>
+	<p><b>U.a. zu behandelte Fragen:</b></p>
+	<p>
+		<ul class="circle">
+			<li>Was wurde das letzte mal erreicht?</li>
+			<li>Wo gab es Probleme?</li>
+			<li>Was soll dieses mal erreicht werden?</li>
+		</ul>
+	</p>
+	<p>
+		<b>Dauer: </b>~10 Minuten
+	</p>
+</div>
+
+<div class="panel" id="sp">
+	<h1>Sprint Planning Meeting</h1>
+	<p>Wird zu Beginn jedes Sprints gehalten.</p>
+	<p><b>Zweck: </b>Um Arbeitspakete für einen Sprint festzulegen.</p>
+	<p><b>Durchführung: </b>Tasks werden aus dem Product Backlog entnommen. Es sollten so viele User Stories vom
+Produkt Backlog übernommen werden, die auch umsetzbar sind. Dabei sollte das Sprint Goal berücksichtigt
+werden.</p>
+	<p><b>Aufzeichnung: </b>Ein Protokoll wird erstellt. Der Status der User Stories werden im <a href="#sp">Sprint Backlog</a> festgehalten.
+	</p>
+	<p>
+		<b>Dauer pro Mitarbeiter: </b>~1 Stunde
+	</p>
+</div>
+
+<div class="panel" id="sreview">
+	<h1>Sprint Review Meeting</h1>
+	<p>Das Team zeigt dem Product Owner was es geschafft hat.</p>
+	<p><b>Zweck: </b>Fertigstellungsgrad der Feature/ User Stories festzustellen und um Feedback von Anwesenden
+einzuholen.</p>
+	<p><b>Durchführung: </b>Anhand des Sprintbacklogs, werden die einzelne User Stories mit den Acceptance Criteria
+und <a href="#dod">Definition of Done</a> Kriterien auf Vollständigkeit und weitere geforderte Eigenschaften begutachtet und
+bewertet.
+Anschließend wird beschlossen, ob ein User Story als „Abgenommen“ gilt oder nicht.</p>
+	<p>
+		<b>Dauer pro Mitarbeiter: </b>~1 Stunde
+	</p>
+</div>
+
+<div class="panel" id="sretro">
+	<h1>Sprint Retrospective</h1>
+	<p>Reflektion des letzten Sprints.</p>
+	<p><b>Zweck: </b>Verbesserungspotential für die zukünftigen Sprints zu finden. Interne Projektprozesse und Spielregeln
+kritisch zu betrachten.</p>
+	<p><b>Durchführung: </b>Am Ende eines Sprints setzt sich das Team zusammen und bespricht was im vergangenem Sprint
+gut bzw. schlecht gelaufen ist.</p>
+	<p><b>Aufzeichnung: </b>Ein Protokoll wird erstellt.</p>
+	<p>
+		<b>Dauer pro Mitarbeiter: </b>~1/2 Stunde
+	</p>
+</div>
+		  		</div>
+	  		</div>
+	  	</div>
+	  	<div id='layout_footer'></div>
+	</div>
+	<!-- Footer -->
+  	<div id="footer" class="large-12 columns">
+		<div class="medium-6 small-12 columns">
+  			<p class="contact left">&copy; Copyright 2015. <a href="#">Kontakt</a></p>
+  		</div>
+  		<div class="medium-6 small-12 columns">
+	  		<img src="images/htl_logo.png" id="footer_logo" class="right">
+  		</div>
+  	</div>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
