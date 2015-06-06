@@ -1,0 +1,17 @@
+<div class="content mainBox row" ng-controller="TemplateController">
+	<h1 class="header">Templates</h1>
+	<div class="panel" id="filterDocs">
+		
+
+	</div>
+	<div class="row">
+		<div ng-repeat="template in data.templates">
+			<div class="medium-4 small-6 columns">
+				<div class="panel">
+					<h1> {{ template.name }} </h1>
+					<p><a href="#/terms#{{template.desc}}">Beschreibung</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

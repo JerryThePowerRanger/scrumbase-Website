@@ -11,6 +11,7 @@ app.config(function ($routeProvider, $locationProvider) {
     .when("/intro", { templateUrl: "intro.html" })
     .when("/terms", { templateUrl: "terms.html" })
     .when("/application", { templateUrl: "application.html" })
+    .when("/templates", { templateUrl: "templates.html" })
     .when("/home", { templateUrl: "home.html" })
     .otherwise({ templateUrl: "home.html" });
 });
