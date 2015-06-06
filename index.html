@@ -1,12 +1,18 @@
 <!doctype html>
-<html class="no-js" lang="de">
+<html ng-app="scrumApp" lang="de">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Scrumbase</title>
     <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
     <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.5.0/slick.css"/>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular-route.min.js"></script>
+    <script src="./app.js"></script>
+	<script src="./controller.js"></script>
   </head>
   <body>
   	<div id="layout">
@@ -26,13 +32,11 @@
 				<!-- Rechte Navigationssektion -->
 				<ul class="right" id="test">
 					<li class="divider"></li>
-					<li><a href="intro.html">Einführung</a></li>
+					<li><a href="#/intro">Einführung</a></li>
 					<li class="divider"></li>
-					<li><a href="#">Begriffe</a></li>
+					<li><a href="#/terms">Begriffe</a></li>
 					<li class="divider"></li>
-					<li><a href="#">Anwendung</a></li>
-					<li class="divider"></li>
-					<li><a href="#">Templates</a></li>
+					<li><a href="#/application">Anwendung</a></li>
 				</ul>
 
 				<!-- Linke Navigationssektion -->
@@ -41,28 +45,24 @@
 				</ul>
 			</section>
 		</nav>
-	  	<div class="content">
-	  		<div id="particels">
+	  	<div ng-view>
 
-	  		</div>
+	  		
 	  	</div>
 	  	<div id='layout_footer'></div>
 	</div>
-	<!-- <!-- Footer -->
+
+	<!-- Footer -->
   	<div id="footer" class="large-12 columns">
 		<div class="medium-6 small-12 columns">
-  			<p class="contact left">&copy; Copyright 2015. <a href="#">Kontakt</a></p>
+  			<p class="contact left">&copy; Copyright 2015. <a href="#/contact">Kontakt</a></p>
   		</div>
   		<div class="medium-6 small-12 columns">
 	  		<img src="images/htl_logo.png" id="footer_logo" class="right">
   		</div>
-  	</div> -->
+  	</div>
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
-    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-     <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.5.0/slick.min.js"></script>
     <script src="js/script.js"></script>
-
-
   </body>
 </html>
