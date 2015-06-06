@@ -4,20 +4,8 @@ app.controller("TemplateController", function($scope) {
 			{
 				"name" : "Product Backlog",
 				"desc" : "pback",
-				"files" : [
-					{
-						"type" : "Excel",
-						"url" : "http://www.ddg.gg"
-					},
-					{
-						"type" : "ODS",
-						"url" : "http://www.ddg.gg"
-					}
-				]
-			},
-			{
-				"name" : "Sprint Backlog",
-				"desc" : "sback",
+				"phase" : "pb",
+				"role" : "po",
 				"files" : [
 					{
 						"type" : "Excel",
@@ -32,6 +20,32 @@ app.controller("TemplateController", function($scope) {
 			{
 				"name" : "Sprint Planning Meeting",
 				"desc" : "sp",
+				"phase" : "sb",
+				"role" : "sm",
+				"files" : [
+					{
+						"type" : "Word",
+						"url" : "http://www.ddg.gg"
+					},
+					{
+						"type" : "ODT",
+						"url" : "http://www.ddg.gg"
+					},
+					{
+						"type" : "PDF",
+						"url" : "http://www.ddg.gg"
+					},
+					{
+						"type" : "Pages",
+						"url" : "http://www.ddg.gg"
+					}
+				]
+			},
+			{
+				"name" : "Sprint Backlog",
+				"desc" : "sback",
+				"phase" : "sb",
+				"role" : "sm",
 				"files" : [
 					{
 						"type" : "Excel",
@@ -46,13 +60,23 @@ app.controller("TemplateController", function($scope) {
 			{
 				"name" : "Sprint Review Meeting",
 				"desc" : "sreview",
+				"phase" : "se",
+				"role" : "sm",
 				"files" : [
 					{
-						"type" : "Excel",
+						"type" : "Word",
 						"url" : "http://www.ddg.gg"
 					},
 					{
-						"type" : "ODS",
+						"type" : "ODT",
+						"url" : "http://www.ddg.gg"
+					},
+					{
+						"type" : "PDF",
+						"url" : "http://www.ddg.gg"
+					},
+					{
+						"type" : "Pages",
 						"url" : "http://www.ddg.gg"
 					}
 				]
@@ -60,18 +84,31 @@ app.controller("TemplateController", function($scope) {
 			{
 				"name" : "Sprint Retrospective",
 				"desc" : "sretro",
+				"phase" : "se",
+				"role" : "sm",
 				"files" : [
 					{
-						"type" : "Excel",
+						"type" : "Word",
 						"url" : "http://www.ddg.gg"
 					},
 					{
-						"type" : "ODS",
+						"type" : "ODT",
+						"url" : "http://www.ddg.gg"
+					},
+					{
+						"type" : "PDF",
+						"url" : "http://www.ddg.gg"
+					},
+					{
+						"type" : "Pages",
 						"url" : "http://www.ddg.gg"
 					}
 				]
 			}
-		]
+		],
+		"search" : "",
+		"phaseFilter" : "",
+		"roleFilter" : ""
 	}
 
 });

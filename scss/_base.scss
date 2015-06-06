@@ -87,3 +87,19 @@ $primaryHeader: Oxygen, sans-serif;
 
 $navigationBar: 30px;
 $footer: 20px;
+
+
+.file {
+	text-align: center;
+
+	padding-left: auto;
+	padding-right: auto;
+}
+
+.document {
+	min-height: 17em;
+}
+
+.document h1 {
+	color: $primaryDarkBlue;
+}
