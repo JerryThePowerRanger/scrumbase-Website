@@ -5,14 +5,11 @@
 	BAM! alle Dateien sind drinnen
 */
 
-// Foundation
-@import "foundation/components/top-bar";
+// Foundationkomponenten
+@import "foundation";
 
 // Basic Settings von Foundation
 @import "settings";
-
-// Foundationkomponenten
-@import "foundation";
 
 // Basisvariablen, die in der gesamten CSS-Datei benötigt werden
 @import "base";

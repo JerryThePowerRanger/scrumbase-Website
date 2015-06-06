@@ -22,16 +22,13 @@ $primarySkyBlue: #F1FFFA;
 // Mercury – Grau
 $primaryGrey: #E6E6E6;
 
-
 // Mine Shaft – Dunkles Grau – wird für die Schrift verwendent
 $primaryFontColor: #333333;
 
 // Foundation Variablen
 
 $topbar-bg-color: $primaryDarkBlue;
-$topbar-bg: $topbar-bg-color;
-$topbar-link-bg: $topbar-bg-color;
-$topbar-dropdown-bg: $topbar-bg-color;
+
 
 //		////////////////// 
 //		*  SCHRIFTARTEN *
@@ -48,42 +45,6 @@ $primaryHeader: Oxygen, sans-serif;
 //		/////////////////// 
 //		*  SCHRIFTGRÖßEN *
 //		//////////////////
-
-
-/* 
-	ZEUG DAS EIGENTLICH WOANDERS HINGEHÖRT
-*/
-
-.nT{
-	color: $primaryFontColor;
-	font-family: $primaryNormalText;
-}
-
-.paragraph{
-	@extend .nT;
-	margin-top: 1em;
-
-}
-
-.mainBox p {
-	@extend .paragraph;
-}
-
-.mainBox li {
-	margin-top: 0.5em;
-}
-
-.panel h1 {
-	font-size: 180%;
-}
-
-.panel h2 {
-	font-size: 120%;
-}
-
-.panel b {
-	font-weight: bold;
-}
 
 $navigationBar: 30px;
 $footer: 20px;

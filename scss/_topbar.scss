@@ -1,18 +1,25 @@
 #top_logo {
-	height: 60%;
+	height: 2em;
 	margin-top: 0.4em;
 	margin-left: 0.8em;
 }
 
 #top_elements {
-
+	ul{
+		li{
+			a{
+				font-family: $primaryHeader;
+				font-size: 1em;
+			}
+		}
+	}
 }
 
-#top_elements ul li a {
-	font-family: $primaryHeader;
-	font-size: 1em;
+.top-bar{
+	background-color: $primaryDarkBlue;
 }
 
-.top-bar {
-	/* background-color: $primarySkyBlue; */
+#test li a{
+		background-color: $primaryDarkBlue;
+
 }
