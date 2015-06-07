@@ -1,0 +1,46 @@
+<div class="content mainBox row" ng-controller="TemplateController">
+	<div class="small-10 small-offset-1 columns">
+		<h1 class="header">Templates</h1>
+		<div class="panel" id="filterDocs">
+			<input type="text" ng-model="data.search" placeholder="Suche...">
+			
+			<label>Projektphase
+		        <select ng-model="data.phaseFilter">
+		          <option value="">Alle</option>>
+		          <option value="pb">Projektbeginn</option>
+		          <option value="sb">Beginn Sprint</option>
+		          <option value="se">Ende Sprint</option>
+		        </select>
+		    </label>
+		    <label>Rolle des Verfassers
+		        <select ng-model="data.roleFilter">
+		          <option value="">Alle</option>>
+		          <option value="po">Product Owner</option>
+		          <option value="sm">Scrum Master</option>
+		        </select>
+		    </label>
+		</div>
+		<div class="row">
+			<div ng-repeat="template in data.templates | filter:data.phaseFilter | filter:data.roleFilter |filter:data.search">
+				<div class="medium-6 small-12 columns">
+					<div class="panel document">
+						<h1> {{ template.name }} </h1>
+						<p><a href="#/terms#{{template.desc}}">Beschreibung</a></p>
+						<p>
+							<div class="row">
+								<div ng-repeat="file in template.files">
+									<div class="small-6 medium-3 columns file center">
+										<a href="{{file.url}}">
+											<img src="images/{{file.type}}.png"> <br>
+											{{ file.type }}
+										</a>
+									</div>
+								</div>
+							</div>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
