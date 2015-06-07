@@ -1,0 +1,26 @@
+.an_sprint_arrow{
+	position: relative;
+    height: 300px;
+    margin-top: -30px;
+    margin-left: -60px;
+}
+.an_left {
+	float: left;
+}
+.an_right{
+    position: relative;
+	margin-top: -272.5px;
+	margin-left: 300px;
+}
+.an_daily_scrum{
+	position: relative;
+	margin-left: -50px;
+	height: 100px;
+}
+
+object{
+	display: inline;
+}
+.an_children{
+	height: 100px;
+}
