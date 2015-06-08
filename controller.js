@@ -21,6 +21,6 @@ app.controller("AnimationController", function($scope, animationDesc, $log){
 	};
 
 	$scope.test = function(){
-		$scope.text = 'Hello';
+		$log.log('hello');
 	};
 });
