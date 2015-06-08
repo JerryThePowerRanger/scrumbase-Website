@@ -21,42 +21,43 @@
   <body>
   	<div id="layout">
 	  	<!-- Navigationsleiste -->
-		<nav class="top-bar" data-topbar role="navigation">
-			<ul class="title-area">
-				<li class="name">
-					<a href="#"><img src="images/nav_logo.png" id="top_logo"></a>
-				</li>
-				<li class="toggle-topbar menu-icon">
-					<a href="">
-						<span>Menu</span>
-					</a>
-				</li>	
-			</ul>
-			<section class="top-bar-section" id="top_elements">
-				<!-- Rechte Navigationssektion -->
-				<ul class="right" id="test">
-					<li class="divider"></li>
-					<li><a href="#/intro">Einführung</a></li>
-					<li class="divider"></li>
-					<li><a href="#/diary">Tagebuch</a></li>
-					<li class="divider"></li>
-					<li><a href="#/terms">Begriffe</a></li>
-					<li class="divider"></li>
-					<li><a href="#/application">Anwendung</a></li>
-					<li class="divider"></li>
-					<li><a href="#/templates">Templates</a></li>
+	  	<div class="fixed">
+			<nav class="top-bar" data-topbar role="navigation">
+				<ul class="title-area">
+					<li class="name">
+						<a href="#"><img src="images/nav_logo.png" id="top_logo"></a>
+					</li>
+					<li class="toggle-topbar menu-icon">
+						<a href="">
+							<span>Menu</span>
+						</a>
+					</li>	
 				</ul>
+				<section class="top-bar-section" id="top_elements">
+					<!-- Rechte Navigationssektion -->
+					<ul class="right" id="test">
+						<li class="divider"></li>
+						<li><a href="#/intro">Einführung</a></li>
+						<li class="divider"></li>
+						<li><a href="#/terms">Begriffe</a></li>
+						<li class="divider"></li>
+						<li><a href="#/application">Anwendung</a></li>
+						<li class="divider"></li>
+						<li><a href="#/templates">Templates</a></li>
+					</ul>
 
-				<!-- Linke Navigationssektion -->
-				<ul class="left">
+					<!-- Linke Navigationssektion -->
+					<ul class="left">
 
-				</ul>
-			</section>
-		</nav>
+					</ul>
+				</section>
+			</nav>
+		</div>
 	  	<div ng-view>
 
 	  		
 	  	</div>
+
 	  	<div id='layout_footer'></div>
 	</div>
 

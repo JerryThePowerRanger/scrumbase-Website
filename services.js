@@ -1,4 +1,8 @@
 app.service('animationDesc', [function () {
+
+	/*
+	*	Dieses Array enthält alle Daten für die einzelnen Bilder der Animation.
+	*/
 	this.text = [
 	{
 		name: 'pb',
