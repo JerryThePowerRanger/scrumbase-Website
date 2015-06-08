@@ -1,1 +1,3 @@
-window.onload = particlesJS.load('particels', 'particles_conf.json');
+$(function(){
+	particlesJS.load('particels', 'particles_conf.json');
+});

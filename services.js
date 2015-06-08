@@ -1,4 +1,8 @@
 app.service('animationDesc', [function () {
+
+	/*
+	*	Dieses Array enthält alle Daten für die einzelnen Bilder der Animation.
+	*/
 	this.text = [
 	{
 		name: 'pb',
@@ -36,11 +40,15 @@ app.service('templates', [function(){
 				"files" : [
 					{
 						"type" : "Excel",
-						"url" : "http://www.ddg.gg"
+						"url" : "https://docs.google.com/file/d/0B5Oh7AnJWE-iVWZFYTdtcDhuX2c/edit"
 					},
 					{
 						"type" : "ODS",
-						"url" : "http://www.ddg.gg"
+						"url" : "https://docs.google.com/file/d/0B5Oh7AnJWE-iaFFmMDBXV2R4SUU/edit"
+					},
+					{
+						"type" : "PDF",
+						"url" : "https://docs.google.com/file/d/0B5Oh7AnJWE-idXdHZGYzS3llTjA/edit"
 					}
 				]
 			},
@@ -52,19 +60,19 @@ app.service('templates', [function(){
 				"files" : [
 					{
 						"type" : "Word",
-						"url" : "http://www.ddg.gg"
+						"url" : "https://docs.google.com/file/d/0B5Oh7AnJWE-iRFRqSEsxOWFhX28/edit"
 					},
 					{
 						"type" : "ODT",
-						"url" : "http://www.ddg.gg"
+						"url" : "https://docs.google.com/file/d/0B5Oh7AnJWE-iUEgxakVkWVRxYTQ/edit"
 					},
 					{
 						"type" : "PDF",
-						"url" : "http://www.ddg.gg"
+						"url" : "https://docs.google.com/file/d/0B5Oh7AnJWE-iWHRWQjl4ZFpDNWc/edit"
 					},
 					{
 						"type" : "Pages",
-						"url" : "http://www.ddg.gg"
+						"url" : "https://docs.google.com/file/d/0B5Oh7AnJWE-ibWFCYnd2NlYxVDg/edit"
 					}
 				]
 			},
@@ -76,11 +84,15 @@ app.service('templates', [function(){
 				"files" : [
 					{
 						"type" : "Excel",
-						"url" : "http://www.ddg.gg"
+						"url" : "https://docs.google.com/file/d/0B5Oh7AnJWE-iQk94NDh6WVo5SDA/edit"
 					},
 					{
 						"type" : "ODS",
-						"url" : "http://www.ddg.gg"
+						"url" : "https://docs.google.com/file/d/0B5Oh7AnJWE-iaVVRdkVaUjZPZEE/edit"
+					},
+					{
+						"type" : "PDF",
+						"url" : "https://docs.google.com/file/d/0B5Oh7AnJWE-iQ29xdUlna1NZaGc/edit"
 					}
 				]
 			},
@@ -92,19 +104,19 @@ app.service('templates', [function(){
 				"files" : [
 					{
 						"type" : "Word",
-						"url" : "http://www.ddg.gg"
+						"url" : "https://docs.google.com/file/d/0B5Oh7AnJWE-iNUJocC1NQjVMcVU/edit"
 					},
 					{
 						"type" : "ODT",
-						"url" : "http://www.ddg.gg"
+						"url" : "https://docs.google.com/file/d/0B5Oh7AnJWE-iQmJidmVONmRsYlE/edit"
 					},
 					{
 						"type" : "PDF",
-						"url" : "http://www.ddg.gg"
+						"url" : "https://docs.google.com/file/d/0B5Oh7AnJWE-iMnRLRnFiWEhpSzg/edit"
 					},
 					{
 						"type" : "Pages",
-						"url" : "http://www.ddg.gg"
+						"url" : "https://docs.google.com/file/d/0B5Oh7AnJWE-iLU83WGctQ25fVTQ/edit"
 					}
 				]
 			},
@@ -116,30 +128,30 @@ app.service('templates', [function(){
 				"files" : [
 					{
 						"type" : "Word",
-						"url" : "http://www.ddg.gg"
+						"url" : "https://docs.google.com/file/d/0B5Oh7AnJWE-iVFZ0NDI0UWhXVWM/edit"
 					},
 					{
 						"type" : "ODT",
-						"url" : "http://www.ddg.gg"
+						"url" : "https://docs.google.com/file/d/0B5Oh7AnJWE-iR1E3REZXN2s0TGs/edit"
 					},
 					{
 						"type" : "PDF",
-						"url" : "http://www.ddg.gg"
+						"url" : "https://docs.google.com/file/d/0B5Oh7AnJWE-iZXM0SEI2QVFNbVU/edit"
 					},
 					{
 						"type" : "Pages",
-						"url" : "http://www.ddg.gg"
+						"url" : "https://docs.google.com/file/d/0B5Oh7AnJWE-iTHpiZ1E4clh0M0k/edit"
 					}
 				]
 			}
 		],
 		"fileTypes" : {
-			"ODT" : "odt.svg",
-			"Word" : "word.svg",
+			"ODT" : "odt.svg", // LibreOffice / The Document Foundation
+			"Word" : "word.svg", // Public Domain, aber Markenzeichen. Sollte problemlos verwendbar sein.
 			"PDF" : "pdf.png", // Oxygen Team
-			"Pages" : "pages.png", // johnathanmac
-			"Excel" : "excel.svg",
-			"ODS" : "ods.svg"
+			"Pages" : "pages.png", // johnathanmac, Apple
+			"Excel" : "excel.svg", // Public Domain, aber Markenzeichen. Sollte problemlos verwendbar sein.
+			"ODS" : "ods.svg" // LibreOffice / The Document Foundation
 		},
 		"search" : "",
 		"phaseFilter" : "",
