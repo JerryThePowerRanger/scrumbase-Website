@@ -19,8 +19,12 @@
 }
 
 object{
-	display: inline;
+	visibility: visible;
 }
 .an_children{
 	height: 100px;
+}
+
+.animationMargin{
+	padding-top: 5em;
 }
