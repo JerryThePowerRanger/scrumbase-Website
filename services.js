@@ -24,3 +24,117 @@ app.service('animationDesc', [function () {
 		text: 'In der Regel sollte nach einem abgeschlossenen Sprint Review Meeting ein funktionierendes Produkt bereitstehen. Der Auftraggeber kann danach entscheiden, ob er noch weitere Features in das Produkt implemeniteren lassen will oder ob er das bereits vorhandene Produkt nimmt und damit das Projekt abschließt.'
 	}];
 }]);
+
+app.service('templates', [function(){
+	this.templateLink = {
+		"templates" : [
+			{
+				"name" : "Product Backlog",
+				"desc" : "pback",
+				"phase" : "pb",
+				"role" : "po",
+				"files" : [
+					{
+						"type" : "Excel",
+						"url" : "http://www.ddg.gg"
+					},
+					{
+						"type" : "ODS",
+						"url" : "http://www.ddg.gg"
+					}
+				]
+			},
+			{
+				"name" : "Sprint Planning Meeting",
+				"desc" : "sp",
+				"phase" : "sb",
+				"role" : "sm",
+				"files" : [
+					{
+						"type" : "Word",
+						"url" : "http://www.ddg.gg"
+					},
+					{
+						"type" : "ODT",
+						"url" : "http://www.ddg.gg"
+					},
+					{
+						"type" : "PDF",
+						"url" : "http://www.ddg.gg"
+					},
+					{
+						"type" : "Pages",
+						"url" : "http://www.ddg.gg"
+					}
+				]
+			},
+			{
+				"name" : "Sprint Backlog",
+				"desc" : "sback",
+				"phase" : "sb",
+				"role" : "sm",
+				"files" : [
+					{
+						"type" : "Excel",
+						"url" : "http://www.ddg.gg"
+					},
+					{
+						"type" : "ODS",
+						"url" : "http://www.ddg.gg"
+					}
+				]
+			},
+			{
+				"name" : "Sprint Review Meeting",
+				"desc" : "sreview",
+				"phase" : "se",
+				"role" : "sm",
+				"files" : [
+					{
+						"type" : "Word",
+						"url" : "http://www.ddg.gg"
+					},
+					{
+						"type" : "ODT",
+						"url" : "http://www.ddg.gg"
+					},
+					{
+						"type" : "PDF",
+						"url" : "http://www.ddg.gg"
+					},
+					{
+						"type" : "Pages",
+						"url" : "http://www.ddg.gg"
+					}
+				]
+			},
+			{
+				"name" : "Sprint Retrospective",
+				"desc" : "sretro",
+				"phase" : "se",
+				"role" : "sm",
+				"files" : [
+					{
+						"type" : "Word",
+						"url" : "http://www.ddg.gg"
+					},
+					{
+						"type" : "ODT",
+						"url" : "http://www.ddg.gg"
+					},
+					{
+						"type" : "PDF",
+						"url" : "http://www.ddg.gg"
+					},
+					{
+						"type" : "Pages",
+						"url" : "http://www.ddg.gg"
+					}
+				]
+			}
+		],
+		"search" : "",
+		"phaseFilter" : "",
+		"roleFilter" : ""
+	};
+}]);
