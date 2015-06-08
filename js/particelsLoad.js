@@ -1,0 +1,1 @@
+window.onload = particlesJS.load('particels', 'particles_conf.json');

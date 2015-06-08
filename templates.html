@@ -31,7 +31,7 @@
 								<div ng-repeat="file in template.files">
 									<div class="small-6 medium-3 columns file center">
 										<a href="{{file.url}}">
-											<img src="images/{{file.type}}.png"> <br>
+											<img src="images/{{data.fileTypes[file.type]}}"> <br>
 											{{ file.type }}
 										</a>
 									</div>
