@@ -49,6 +49,10 @@ app.service('templates', [function(){
 					{
 						"type" : "PDF",
 						"url" : "https://docs.google.com/file/d/0B5Oh7AnJWE-idXdHZGYzS3llTjA/edit"
+					},
+					{
+						"type" : "GoogleDoc Sheet",
+						"url" : "https://docs.google.com/spreadsheets/d/1YH-ggr8enPLw6G-GadXM7f-Y28BVWi607xYmU2srie0/edit?usp=sharing"
 					}
 				]
 			},
@@ -73,6 +77,10 @@ app.service('templates', [function(){
 					{
 						"type" : "Pages",
 						"url" : "https://docs.google.com/file/d/0B5Oh7AnJWE-ibWFCYnd2NlYxVDg/edit"
+					},
+					{
+						"type" : "GoogleDoc Text",
+						"url" : "https://docs.google.com/document/d/1g4L_l0jVwymnCmY8y7_23DbMZQb7CGKdnz5ePJiunWA/edit?usp=sharing"
 					}
 				]
 			},
@@ -93,6 +101,10 @@ app.service('templates', [function(){
 					{
 						"type" : "PDF",
 						"url" : "https://docs.google.com/file/d/0B5Oh7AnJWE-iQ29xdUlna1NZaGc/edit"
+					},
+					{
+						"type" : "GoogleDoc Sheet",
+						"url" : "https://docs.google.com/spreadsheets/d/13FOeBBlCeg59oEbXDRTvvfJBXCx-rlhJeCxsh4u-yh0/edit?usp=sharing"
 					}
 				]
 			},
@@ -117,6 +129,10 @@ app.service('templates', [function(){
 					{
 						"type" : "Pages",
 						"url" : "https://docs.google.com/file/d/0B5Oh7AnJWE-iLU83WGctQ25fVTQ/edit"
+					},
+					{
+						"type" : "GoogleDoc Text",
+						"url" : "https://docs.google.com/document/d/1xGgKnVqvGs8Y4MPmVx-4Oex3TjewnV4YDXmvp37Ske8/edit?usp=sharing"
 					}
 				]
 			},
@@ -141,6 +157,10 @@ app.service('templates', [function(){
 					{
 						"type" : "Pages",
 						"url" : "https://docs.google.com/file/d/0B5Oh7AnJWE-iTHpiZ1E4clh0M0k/edit"
+					},
+					{
+						"type" : "GoogleDoc Text",
+						"url" : "https://docs.google.com/document/d/1ybvgbl4bSPg1__kYBMIA_3aIv6vjoL9EaP4DB09IwGI/edit?usp=sharing"
 					}
 				]
 			}
@@ -151,7 +171,9 @@ app.service('templates', [function(){
 			"PDF" : "pdf.png", // Oxygen Team
 			"Pages" : "pages.png", // johnathanmac, Apple
 			"Excel" : "excel.svg", // Public Domain, aber Markenzeichen. Sollte problemlos verwendbar sein.
-			"ODS" : "ods.svg" // LibreOffice / The Document Foundation
+			"ODS" : "ods.svg", // LibreOffice / The Document Foundation
+			"GoogleDoc Text" : "google_docs_text.png",
+			"GoogleDoc Sheet" : "GoogleSheetsIcon.png"
 		},
 		"search" : "",
 		"phaseFilter" : "",
